@@ -1,4 +1,4 @@
-# sobre
+# Sobre
 
 Este repositório tem como objetivo criar um sistema para o gerenciamento do Faturamento de uma empresa, contendo modais de cadastro, alteração e exclusão de Clientes, com regras relacionadas a Projetos e SPE´s (Sociedades de propósito específico).
 
