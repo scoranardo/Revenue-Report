@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Home</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Controle do Contas a Receber
+        </h1>
+    </header>
+
+    <main>
+
+        <!-- Butão para o cadastro dos clientes, gerar um banco de dados a ser usado nas demais partes do sistema -->
+        <button type="button" class="button blue registerClient">
+            Cadastro de Cliente
+        </button>
+        
+        <!--  Neste ponto, preciso vincular um menu suspenso com o banco de dados dos Clientes criados para selecionar e gerar um banco de dados de Projetos-->
+        <button type="button" class="button blue registerProject">
+            Cadastro de Projeto
+        </button>
+        
+        <!--  Neste ponto, preciso vincular um menu suspenso com os banco de dados acima e criar um banco de dados das SPE´s -->
+        <button type="button" class="button blue registerSPE">
+            Cadastro de SPE
+        </button>
+
+        <!--- Botão para filtro de visualização, selecionar a visualização por Área, Cliente, Projeto, SPE... -->
+        <button type="button" class="button red filterView">
+            Visualizar Por:
+        </button>
+
+        <!-- Abrir o modal de lançamento de nova Nota Fiscal -->
+        <button type="button" class="button blue registerInvoice">
+            Nova Nota Fiscal
+        </button>
+
+        <!-- Abrir o modal de conciliação Bancária -->
+        <button type="button" class="button green bankReceipts">
+            Conciliação Bancária
+        </button>
+
+        <!--  Lista de Notas Fiscais "Visualização Padrão" -->
+        <div class="table invoices">
+            <ul>
+                <li>Área</li>
+                <li>Projeto</li>
+                <li>Cliente</li>
+                <li>SPE</li>
+                <li>Cash Flow</li>
+                <li>Centro de Custo</li>
+                <li>Competência</li>
+                <li>CNPJ</li>
+                <li>Nota Fiscal</li>
+                <li>Pedido de Compra</li>
+                <li>Data de Emissão</li>
+                <li>Código de Nota</li>
+                <li>Vencimento</li>
+                <li>Valor Bruto</li>
+            </ul>
+        </div>   
+
+    </main>
+
+</body>
+</html>
