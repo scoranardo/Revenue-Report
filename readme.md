@@ -1,10 +1,10 @@
 # sobre
 
-Este repositório tem como objetivo criar um sistema para o gerenciametno de Faturamento de uma empresa, com regras relacionadas ao cadastro, alteração e exclusão de Clientes, Projetos e SPE´s.
+Este repositório tem como objetivo criar um sistema para o gerenciamento do Faturamento de uma empresa, com regras relacionadas ao cadastro, alteração e exclusão de Clientes, com regras relacionadas a Projetos e SPE´s (Sociedades de propósito específico).
 
-A primeira etada deste projeto será totalmente vinculada ao uso do Local Storage, para assim que o sistema estiver funcional, iniciar a atualização para integração do mongoDB
+A primeira e segunda etapa deste projeto serão totalmente vinculadas ao uso do Local Storage, para assim que o sistema estiver funcional, iniciar a atualização para integração com banco de dados, o escolhido é o mongoDB.
 
- tendo a função de importação e exportação de dados, para preenchimento do banco de dados.
+Github Pages do Projeto: https://scoranardo.github.io/Revenue-Report/
 
 # Marcos do Projeto
 
